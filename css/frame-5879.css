@@ -25,6 +25,23 @@
   top: 158px;
 }
 
+.login-input {
+  border-radius: 15px;
+  border: none;
+  padding: 20px; 
+  width: 620px;
+  height: 65px;
+}
+
+*:focus {
+  outline: none;
+}
+input,
+input::placeholder {
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .frame-5879 .title {
   color: var(--white);
   font-weight: 700;

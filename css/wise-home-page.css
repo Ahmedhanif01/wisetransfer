@@ -1095,6 +1095,10 @@
     height: 15px;  
 }
 
+*:focus {
+  outline: none;
+}
+
 .input-icons i {
   position: absolute;
 }
